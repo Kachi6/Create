@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Fredoka:wght@200..900&display=swap);
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+    background: linear-gradient(to right,  rgb(89, 60, 216), rgb(89, 60, 216));
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 35%;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.062), -5px -5px 50px rgba(0, 0, 0, 0.137);
+}
+.container h1{
+    background-color: rgb(89, 60, 216);
+    color: white;
+    font-size: 1.5em;
+    font-family: Fredoka,Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+form{
+    padding: 30px 40px;
+}
+.icon i{
+    width: fit-content;
+    background-color:rgb(89, 60, 216);
+    padding: 19px 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    font-size: 14pt;
+}
+.input-t{
+    display: flex;
+    margin-top: 20px;
+}
+.input-t input{
+    width: 100%;
+    font-size: 12pt;
+    padding: 15px 10px;
+    font-family: Fredoka,sans-serif;
+    font-weight: 300;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 0.5px solid #CCCCCC;    
+}
+
+input[type='submit']{
+    background-color: rgb(89, 60, 216);
+    font-family: Fredoka,sans-serif;
+    font-weight: 300;
+    color: white;
+    width: 100%;
+    font-size: 14pt;
+    padding: 15px 20px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;   
+}
+.txt{
+    margin: 20px 0px 10px 0px;
+}
+.txt a{
+    font-family: Fredoka,sans-serif;
+    font-weight: 300;
+    font-size: 14pt;
+    color:rgb(89, 60, 216);
+    text-decoration: none;
+}
+.txt a:hover{
+    text-decoration: underline;
+}
+.txt2{
+    font-family: Fredoka,sans-serif;
+    font-weight: 300;
+    font-size: 14pt;
+    margin-top: 10px;
+}
+.txt2 a{
+    color: rgb(26, 99, 167);
+    text-decoration: none;
+}
+.txt2 a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:600px){
+    .container{
+        width: 80%;
+    }
+}
